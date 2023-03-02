@@ -121,7 +121,7 @@ function drawScore(){
 function drawLives() {
   ctx.font = "16px Arial"
   ctx.fillStyle = "lime"
-  ctx.fillText(`Lives = ${lives}`, canvas.width - 75, 20)
+  ctx.fillText(`Lives: ${lives}`, canvas.width - 75, 20)
 }
 
 
